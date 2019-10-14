@@ -1,3 +1,4 @@
+require "pry"
 class Student < User
 
   def initialize
@@ -9,5 +10,5 @@ class Student < User
     @knowledge << "x"
 
   end
-
+binding.pry 
 end
