@@ -7,8 +7,8 @@ class Student < User
   end
 
   def learn(x)
-    @knowledge << "x"
+    @knowledge << x
 
   end
-binding.pry 
+binding.pry
 end
